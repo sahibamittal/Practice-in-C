@@ -16,3 +16,14 @@ Basic Operations :
 - int pop_end(node ** head);
 - int pop_by_val(node ** head, int val);
 - int pop_by_index(node ** head, int i);
+
+*BST - Binary Search Tree*
+- use of recursion
+- re-usability using method 'initiate_node'
+
+Basic Operations :
+- void initiate_node(node ** new_node, int val);
+- void insert(node ** root, int val);
+- void printDFS(node * root); // Depth First Search
+- void search(node * root, int val);
+- void remove_node(node ** root, int val);
