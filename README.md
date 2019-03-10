@@ -5,3 +5,14 @@ I'm practicing data structures in C, will continue uploading more for reference.
 - use of double pointers
 - edge cases included
 - follow link https://www.learn-c.org/en/Linked_lists for step-wise understanding (good tutorial)
+
+Basic Operations :
+- void printList(node * head);
+- void push_in_end(node ** head, int n);
+- void push_in_beg(node ** head, int n);
+- void push_after_value(node * head, int curr, int n);
+- void push_before_value(node ** head, int curr, int n);
+- int pop_beg(node ** head);
+- int pop_end(node ** head);
+- int pop_by_val(node ** head, int val);
+- int pop_by_index(node ** head, int i);
