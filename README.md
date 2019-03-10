@@ -19,11 +19,14 @@ Basic Operations :
 
 *BST - Binary Search Tree*
 - use of recursion
+- edge cases covered
 - re-usability using method 'initiate_node'
 
 Basic Operations :
 - void initiate_node(node ** new_node, int val);
 - void insert(node ** root, int val);
-- void printDFS(node * root); // Depth First Search
-- void search(node * root, int val);
+- void printDFS(node * root);
+- struct node * search(node * root, int val);
 - void remove_node(node ** root, int val);
+- struct node * find_min(node * root);
+- struct node * search_next_highest(node * root, int val);
