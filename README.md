@@ -16,6 +16,9 @@ Basic Operations :
 - int pop_end(node ** head);
 - int pop_by_val(node ** head, int val);
 - int pop_by_index(node ** head, int i);
+- void reverse_list(node ** head);
+- int fib(int n); // factorial
+- void recursive_reverse(node ** head);
 
 *BST - Binary Search Tree*
 - use of recursion
