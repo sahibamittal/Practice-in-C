@@ -32,4 +32,6 @@ Basic Operations :
 - struct node * search(node * root, int val);
 - void remove_node(node ** root, int val);
 - struct node * find_min(node * root);
+- struct node * find_max(node * root);
 - struct node * search_next_highest(node * root, int val);
+- bool isBST(node * root, int min, int max);
